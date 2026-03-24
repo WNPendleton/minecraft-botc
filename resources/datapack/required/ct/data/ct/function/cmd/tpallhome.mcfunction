@@ -1,3 +1,5 @@
+execute if score phase game_data matches 0 run return run tellraw @s [{"text":"! ","color":"red","bold":true},{"text":"This command can only be run during a game.","color":"gray","bold":false}]
+
 tellraw @s [{"text":"! ","color":"yellow","bold":true},{"text":"All players were teleported to their homes.","color":"gray","bold":false}]
 
 tellraw @a[tag=!spectator,tag=!storyteller,tag=!in_house] [{"text":"! ","color":"yellow","bold":true},{"text":"A mysterious force teleported you home.","color":"gray","bold":false}]

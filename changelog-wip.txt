@@ -12,6 +12,8 @@ Changes and features:
 - Instead of big ugly banners, houses will now display the name and face of the player they belong to next to the entrance.
 - Ghost vote sound can now be heard more clearly from a distance.
 - Houses now have carpets and beds that closely match their assigned color. (thanks @boofsly!)
+- Teleport evils to church button now has functionality.
+- Storytellers no longer get/keep the setup bag after a game starts.
 - Removed /traveler prompt on spectator join until that command actually exists.
 - Removed SimpleRPC until I find a better alternative.
 
@@ -25,6 +27,8 @@ Fixed bugs:
 - Items on the inn counter can be interacted with.
 - Sunflowers point the wrong way.
 - Grimoire "Actions Menu" button is positioned incorrectly at some resolutions.
+- /tpallhome can be run while a game is not active.
+- Storyteller usernames stay invisible if the game is reset during the night phase.
 
 todo:
 - ST tp to house

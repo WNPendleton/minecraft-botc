@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-player_grim
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1771101077259
+  last_edited_time = 1774312055793
   is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:670d0771-c4a6-4342-a72f-d2f7ff7a5a53-1771821809282] = [groups:][instances:]
+  [loading_requirement_container_meta:9b6aa17c-115d-44d4-a2a1-c8421efa7222-1774312216367] = [groups:][instances:]
 }
 
 customization {
@@ -86,9 +86,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_action_instance:80927c81-ee9d-4692-a17a-052c255197b6-1774311983875][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;80927c81-ee9d-4692-a17a-052c255197b6-1774311983875;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[0]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -153,9 +153,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[1]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -220,9 +220,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[2]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -287,9 +287,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[3]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -354,9 +354,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[4]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[4]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[4]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[4]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -421,9 +421,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[5]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[5]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[5]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[5]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -488,9 +488,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[6]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[6]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[6]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[6]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -555,9 +555,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[7]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[7]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[7]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[7]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -622,9 +622,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[8]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[8]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[8]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[8]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -689,9 +689,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[9]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[9]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[9]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[9]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -756,9 +756,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[10]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[10]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[10]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[10]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -823,9 +823,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[11]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[11]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[11]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[11]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -890,9 +890,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[12]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[12]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[12]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[12]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -957,9 +957,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[13]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[13]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[13]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.town[13]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1024,9 +1024,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[0]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[0]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[0]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[0]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1091,9 +1091,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[1]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[1]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[1]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[1]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1158,9 +1158,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[2]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[2]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[2]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[2]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1225,9 +1225,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[3]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[3]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[3]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[3]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1292,9 +1292,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[4]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[4]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[4]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[4]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1359,9 +1359,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[5]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[5]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[5]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[5]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1426,9 +1426,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[6]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[6]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[6]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[6]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1493,9 +1493,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[7]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[7]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[7]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[7]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1560,9 +1560,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[8]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[8]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[8]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[8]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1627,9 +1627,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[9]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[9]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[9]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[9]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1694,9 +1694,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[10]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[10]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[10]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[10]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1761,9 +1761,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[11]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[11]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[11]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[11]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1828,9 +1828,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[12]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[12]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[12]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[12]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1895,9 +1895,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[13]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[13]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[13]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.outsiders[13]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -1962,9 +1962,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[0]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[0]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[0]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[0]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2029,9 +2029,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[1]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[1]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[1]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[1]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2096,9 +2096,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[2]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[2]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[2]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[2]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2163,9 +2163,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[3]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[3]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[3]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[3]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2230,9 +2230,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[4]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[4]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[4]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[4]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2297,9 +2297,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[5]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[5]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[5]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[5]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2364,9 +2364,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[6]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[6]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[6]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[6]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2431,9 +2431,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[7]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[7]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[7]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[7]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2498,9 +2498,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[8]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[8]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[8]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[8]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2565,9 +2565,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[9]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[9]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[9]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[9]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2632,9 +2632,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[10]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[10]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[10]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[10]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2699,9 +2699,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[11]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[11]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[11]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[11]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2766,9 +2766,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[12]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[12]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[12]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.minions[12]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2833,9 +2833,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[0]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[0]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[0]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[0]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2900,9 +2900,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[1]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[1]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[1]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[1]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -2967,9 +2967,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[2]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[2]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[2]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[2]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -3034,9 +3034,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[3]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[3]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[3]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[3]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -3101,9 +3101,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[4]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[4]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[4]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[4]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -3168,9 +3168,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[5]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[5]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[5]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[5]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -3235,9 +3235,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[6]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[6]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[6]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[6]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -3302,9 +3302,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[7]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[7]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[7]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[7]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -3369,9 +3369,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[8]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[8]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[8]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[8]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -3436,9 +3436,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[9]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[9]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[9]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[9]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -3503,9 +3503,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[10]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[10]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[10]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[10]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -3570,9 +3570,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[11]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[11]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[11]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[11]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true
@@ -3637,9 +3637,9 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[12]","refresh_cooldown_ms":"100"}}
+  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[12]","refresh_cooldown_ms":"100"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_player
-  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
+  [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[12]","refresh_cooldown_ms":"100"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"player_nbt_data","values":{"path":"Inventory[{components:{"minecraft:custom_model_data":{"strings":["script"]}}}].components."minecraft:custom_data".script.characters.demons[12]","refresh_cooldown_ms":"100"}}.png
   restartbackgroundanimations = true

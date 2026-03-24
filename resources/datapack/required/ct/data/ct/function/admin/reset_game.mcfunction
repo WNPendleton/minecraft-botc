@@ -26,6 +26,7 @@ scoreboard players reset @a rps
 scoreboard players reset @a vc
 team leave @a
 team join 99_storyteller @a[tag=storyteller]
+team modify 99_storyteller nametagVisibility always
 tag @a remove has_role
 tag @a remove nominee
 tag @a remove voting_no

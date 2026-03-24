@@ -1,0 +1,18 @@
+{
+	"id": "character",
+	"arguments": [
+		{
+			"id": "id",
+			"type": "brigadier:integer",
+			"arguments": [
+				{
+					"id": "character",
+					"type": "brigadier:string word",
+					"executes": [
+						"function ct:cmd/character {id:${id},character:${character}}"
+					]
+				}
+			]
+		}
+	]
+}

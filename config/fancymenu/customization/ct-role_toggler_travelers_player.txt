@@ -9,7 +9,7 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:6e6ec497-fca9-46ec-9f86-a10d472e60f1-1771821809334] = [groups:][instances:]
+  [loading_requirement_container_meta:aeeb722c-9abf-4df0-b41b-a8a1c000bbd0-1774312216388] = [groups:][instances:]
 }
 
 customization {
@@ -86,9 +86,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[0]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[0]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[0]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[0]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[0]","return_type":"value"}}.png
@@ -222,9 +221,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[1]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[1]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[1]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[1]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[1]","return_type":"value"}}.png
@@ -292,9 +290,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[2]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[2]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[2]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[2]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[2]","return_type":"value"}}.png
@@ -362,9 +359,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[3]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[3]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[3]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[3]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[3]","return_type":"value"}}.png
@@ -432,9 +428,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[4]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[4]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[4]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[4]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[4]","return_type":"value"}}.png
@@ -502,9 +497,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[5]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[5]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[5]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[5]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[5]","return_type":"value"}}.png
@@ -572,9 +566,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[6]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[6]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[6]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[6]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[6]","return_type":"value"}}.png
@@ -642,9 +635,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[7]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[7]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[7]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[7]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[7]","return_type":"value"}}.png
@@ -712,9 +704,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[8]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[8]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[8]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[8]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[8]","return_type":"value"}}.png
@@ -782,9 +773,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[9]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[9]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[9]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[9]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[9]","return_type":"value"}}.png
@@ -852,9 +842,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[10]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[10]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[10]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[10]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[10]","return_type":"value"}}.png
@@ -922,9 +911,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[11]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[11]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[11]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[11]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[11]","return_type":"value"}}.png
@@ -992,9 +980,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[12]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[12]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[12]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[12]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[12]","return_type":"value"}}.png
@@ -1062,9 +1049,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[13]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[13]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[13]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[13]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[13]","return_type":"value"}}.png
@@ -1132,9 +1118,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[14]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[14]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[14]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[14]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[14]","return_type":"value"}}.png
@@ -1202,9 +1187,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[15]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[15]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[15]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[15]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[15]","return_type":"value"}}.png
@@ -1272,9 +1256,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[16]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[16]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[16]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[16]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[16]","return_type":"value"}}.png
@@ -1342,9 +1325,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836
-  [executable_action_instance:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526][action_type:set_variable] = p{"placeholder":"getvariable","values":{"name":"editing_player"}}_role:{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[17]","return_type":"value"}}
   [executable_action_instance:38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539][action_type:disable_layout] = ct-role_toggler_travelers_player
-  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"player_{"placeholder":"getvariable","values":{"name":"editing_player"}}"}} run fmvariable set role false {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[17]","return_type":"value"}}
+  [executable_action_instance:d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265][action_type:sendmessage] = /character {"placeholder":"getvariable","values":{"name":"editing_player"}} {"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[17]","return_type":"value"}}
   [executable_block:74cc34bd-9c2d-462d-9f5a-158a1565ecc8-1752204281836][type:generic] = [executables:947dd1e8-351c-4fc7-87a5-684890179358-1752204821526;38951736-cd1a-4417-ae34-7d08ec329dae-1752205071539;d370ea9d-791a-4c32-bec2-9c4e4c2dfacd-1752629866265;]
   backgroundnormal = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[17]","return_type":"value"}}.png
   backgroundhovered = [source:location]ct:textures/role/{"placeholder":"nbt_data_get_server","values":{"source_type":"storage","storage_id":"ct:travelers","nbt_path":"list[17]","return_type":"value"}}.png

@@ -254,7 +254,7 @@ variable {
 
 variable {
   name = player_1
-  value = Alex
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -320,7 +320,7 @@ variable {
 
 variable {
   name = player_2
-  value = Sybillian
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -890,7 +890,7 @@ variable {
 
 variable {
   name = phase
-  value = 4
+  value = 0
   reset_on_launch = false
 }
 
@@ -1082,7 +1082,7 @@ variable {
 
 variable {
   name = editing_bluff
-  value = 3
+  value = 1
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 13:09
+  value = 18:30
   reset_on_launch = false
 }
 
@@ -1215,6 +1215,12 @@ variable {
 variable {
   name = p5_r5_icon
   value = none
+  reset_on_launch = false
+}
+
+variable {
+  name = p0_role
+  value = fang_gu
   reset_on_launch = false
 }
 
@@ -1568,7 +1574,7 @@ variable {
 
 variable {
   name = p1_role
-  value = yaggababble
+  value = none
   reset_on_launch = false
 }
 
