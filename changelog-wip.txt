@@ -1,40 +1,30 @@
-BotC v1.5.2 - March 29, 2026
-
-This version features the first iteration of the player-facing "Grimoire" for keeping track of claims! It is an extremely bare-minimum version right now and will get quite a bit better in the future.
+BotC v1.5.4 - April XX, 2026
 
 Changes and features:
-- #15: Add a player-facing Grimoire for notekeeping.
-- #45: Add an in-game link to the project's Issues page for easy bug reporting.
-- #46 (partial): Add an in-game explainer on how to use the pack.
-- Added a screen to view all Travelers, which can be accessed from the script menu.
-- Added a sound for when a regular vote is taken. I don't love this sound; it may change or be removed in the future, but for the time being it's helpful to keep track of vote counts.
-- Added a note on the pause screen warning that the pack is in an early stage of development.
-- Added a prompt to hover over your character icon to read the description.
-- Added the modpack logo to the pause screen.
-- Added a resource pack with pixel icons made by the community. :)
-- Instead of big ugly banners, houses will now display the name and face of the player they belong to next to the entrance.
-- Whether or not a player is voting is now displayed at the top of the screen while a nomination is active. This will likely be improved in the future.
-- Ghost vote sound can now be heard more clearly from a distance.
-- Teleport evils to church button now has functionality.
-- Storytellers no longer get/keep the setup bag after a game starts.
-- Slightly adjusted Credits screen formatting.
-- Tray icon now uses the pack's Imp icon.
-- Removed /traveler prompt on spectator join until that command actually exists.
-- Removed SimpleRPC until I find a better alternative.
-- Removed the irrelevant vanilla Advancements button.
+- Added pixel icons:
+  - Knaves
+  - Mayor
+  - Monk
+  - Saint
+  - Seamstress
+  - Vortox
+  - Beggar
+  - Gossip
+  - Pacifist
+  - Lil' Monsta
+  - Town Crier
+  - Nightwatchman
+  - No Dashii
+  - Huntsman
+  - Zealot
+  - Ventriloquist
+  - Professor
+  - Sage
+  - Mathematician
+  - Devil's Advocate
+  - Steward
+  - Fearmonger
+  - General
+- Updated credits to contain all current pixel art contributors. Thanks everyone!
 
 Fixed bugs:
-- #44: Character name color formatting in hover hint breaks for some Minions.
-- #47: Setup Bag doesn't scale properly with different aspect ratios.
-- #50: Some commands that should be op-only are not.
-- #51: Colors in the Grimoire do not closely match house colors in-game.
-- #52: Wiki Links in the Script do not work for characters who have a space in their name. (thanks @JakeHumphries4!)
-- #59: Al-Hadikhia and Fearmonger announcements should send in chat.
-- #68: The inn's upper window can be parkoured into.
-- Changelog screen has no background.
-- Greenhouse and mint house voice chats have slightly incorrect bounds.
-- Items on the inn counter can be interacted with.
-- Sunflowers point the wrong way.
-- Grimoire "Actions Menu" button is positioned incorrectly at some resolutions.
-- /tpallhome can be run while a game is not active.
-- Storyteller usernames stay invisible if the game is reset during the night phase.

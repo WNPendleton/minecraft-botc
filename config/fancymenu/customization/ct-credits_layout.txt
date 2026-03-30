@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-credits
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1774578313412
+  last_edited_time = 1774806635846
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:40895d83-8396-470f-a8a3-528c76686b92-1774578210287] = [groups:][instances:]
+  [loading_requirement_container_meta:d10b9413-2121-4e18-ad28-8b591f6660af-1774806588051] = [groups:][instances:]
 }
 
 menu_background {
@@ -154,7 +154,7 @@ element {
   sticky_anchor = false
   anchor_point = top-centered
   x = -100
-  y = 20
+  y = 5
   width = 200
   height = 23
   stretch_x = false
@@ -326,7 +326,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%### Pixel Art Icons%n%Ciel_4%n%Jvkeh%n%MacadamiaNut%n%boofsly%n%Sybillian%n%CJCougar8%n%aure%n%Jmc%n%MAATbud%n%Lord Woolfy%n%Gendemo%n%Geminpie%n%poof%n%Axo%n%Dos%n%^^^
+  source = ^^^%n%### Pixel Art Icons%n%Ciel\_4%n%Jvkeh%n%MacadamiaNut%n%Sybillian%n%CJCougar8%n%aure%n%Jmc%n%MAATbud%n%Lord Woolfy%n%Gendemo%n%Geminpie%n%poof%n%Axo%n%Dos%n%OliverIsJester%n%allie\_cat\_\_%n%khangnsn%n%^^^
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -375,7 +375,7 @@ element {
   x = 100
   y = 28
   width = 200
-  height = 188
+  height = 209
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
