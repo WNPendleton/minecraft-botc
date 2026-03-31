@@ -692,7 +692,7 @@ variable {
 
 variable {
   name = script_json
-  value = [{"id":"_meta","author":"Shack","name":"Yapville","logo":"https://i.ibb.co/c81tjbq/yappers.png","background":"https://i.ibb.co/dkFcPL7/Back-Page-No-Logo.png"},"steward","washerwoman","sailor","villageidiot","king","flowergirl","towncrier","gossip","fisherman","philosopher","choirboy","ravenkeeper","poppygrower","plaguedoctor","mutant","damsel","politician","widow","harpy","cerenovus","mezepheles","goblin","yaggababble","kazali","bonecollector","deviant","voudon"]
+  value = [{"id":"_meta","author":"Sybillian","name":"Parlor Oil & Snake Tricks"},"grandmother","pixie","empath","highpriestess","balloonist","chambermaid","dreamer","towncrier","nightwatchman","juggler","cannibal","farmer","poppygrower","lunatic","sweetheart","plaguedoctor","moonchild","poisoner","harpy","assassin","boomdandy","yaggababble","kazali","vortox","legion","barista","harlot","gunslinger","bonecollector","judge","djinn"]
   reset_on_launch = false
 }
 
@@ -716,7 +716,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 10
+  value = 12
   reset_on_launch = false
 }
 

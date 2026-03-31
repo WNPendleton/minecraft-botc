@@ -1,43 +1,7 @@
 BotC v1.5.4 - April XX, 2026
 
 Changes and features:
-- Added pixel icons:
-  - Knaves
-  - Mayor
-  - Monk
-  - Saint
-  - Seamstress
-  - Vortox
-  - Beggar
-  - Gossip
-  - Pacifist
-  - Lil' Monsta
-  - Town Crier
-  - Nightwatchman
-  - No Dashii
-  - Huntsman
-  - Zealot
-  - Ventriloquist
-  - Professor
-  - Sage
-  - Mathematician
-  - Devil's Advocate
-  - Steward
-  - Fearmonger
-  - General
-  - Lord of Typhon
-  - Bootlegger
-  - Damsel
-  - Banshee
-  - Klutz
-  - Pukka
-  - Plague Doctor
-  - Cerenovus
-  - Buddhist
-  - Ferryman
-  - Virgin
-  - Fiddler
-  - Shugenja
+- Added a ton of pixel icons.
 - Updated credits to contain all current pixel art contributors. Thanks everyone!
 
 Fixed bugs:
