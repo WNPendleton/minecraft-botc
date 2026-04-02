@@ -152,7 +152,7 @@ variable {
 
 variable {
   name = version
-  value = 1.5.3
+  value = 1.5.4
   reset_on_launch = false
 }
 
@@ -926,7 +926,7 @@ variable {
 
 variable {
   name = storyteller
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 21:48
+  value = 00:22
   reset_on_launch = false
 }
 
@@ -1256,7 +1256,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 2
+  value = 1
   reset_on_launch = false
 }
 

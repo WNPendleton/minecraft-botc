@@ -8,6 +8,7 @@ Changes and features:
 - Updated credits to contain all current pixel art contributors. Thanks everyone!
 
 Fixed bugs:
+- #81: Dead players' skulls are not cleared when rejoining after the game has ended.
 - #82: Spectators can generate chunks. (thanks @Dream0Slayer!)
 - #84: Grimoire Keybind does not work for players. (thanks @LordWoolfy!)
 - #85: Player grim does not mark players as alive again after the game ends.
