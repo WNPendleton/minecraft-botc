@@ -2,7 +2,7 @@ type = user_variables
 
 variable {
   name = p5_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -44,7 +44,7 @@ variable {
 
 variable {
   name = p3_r2_text
-  value = none
+  value = noble
   reset_on_launch = false
 }
 
@@ -74,7 +74,7 @@ variable {
 
 variable {
   name = p10_r1_icon
-  value = none
+  value = artist
   reset_on_launch = false
 }
 
@@ -98,7 +98,7 @@ variable {
 
 variable {
   name = p12_r1_text
-  value = none
+  value = noble
   reset_on_launch = false
 }
 
@@ -440,7 +440,7 @@ variable {
 
 variable {
   name = p8_r1_icon
-  value = none
+  value = librarian
   reset_on_launch = false
 }
 
@@ -464,7 +464,7 @@ variable {
 
 variable {
   name = p4_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -512,7 +512,7 @@ variable {
 
 variable {
   name = p12_r1_icon
-  value = none
+  value = noble
   reset_on_launch = false
 }
 
@@ -572,13 +572,13 @@ variable {
 
 variable {
   name = p10_r1_text
-  value = none
+  value = artist
   reset_on_launch = false
 }
 
 variable {
   name = last_nom
-  value = none
+  value = BuffyTheMoth
   reset_on_launch = false
 }
 
@@ -596,7 +596,7 @@ variable {
 
 variable {
   name = player_count
-  value = 10
+  value = 11
   reset_on_launch = false
 }
 
@@ -662,7 +662,7 @@ variable {
 
 variable {
   name = p8_r1_text
-  value = none
+  value = librarian_outsider
   reset_on_launch = false
 }
 
@@ -686,7 +686,7 @@ variable {
 
 variable {
   name = random_hint
-  value = 4
+  value = 10
   reset_on_launch = false
 }
 
@@ -752,7 +752,7 @@ variable {
 
 variable {
   name = p1_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -806,7 +806,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 
@@ -872,7 +872,7 @@ variable {
 
 variable {
   name = p4_r1_icon
-  value = none
+  value = noble
   reset_on_launch = false
 }
 
@@ -890,7 +890,7 @@ variable {
 
 variable {
   name = phase
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -926,7 +926,7 @@ variable {
 
 variable {
   name = storyteller
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -950,7 +950,7 @@ variable {
 
 variable {
   name = p2_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -974,7 +974,7 @@ variable {
 
 variable {
   name = p12_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -998,7 +998,7 @@ variable {
 
 variable {
   name = p9_r1_icon
-  value = none
+  value = mezepheles
   reset_on_launch = false
 }
 
@@ -1052,7 +1052,7 @@ variable {
 
 variable {
   name = p3_r2_icon
-  value = none
+  value = noble
   reset_on_launch = false
 }
 
@@ -1070,19 +1070,19 @@ variable {
 
 variable {
   name = bluff_1
-  value = none
+  value = dreamer
   reset_on_launch = false
 }
 
 variable {
   name = p3_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
 variable {
   name = editing_bluff
-  value = 3
+  value = 1
   reset_on_launch = false
 }
 
@@ -1124,7 +1124,7 @@ variable {
 
 variable {
   name = team_color
-  value = #cf0606
+  value = #1464e7
   reset_on_launch = false
 }
 
@@ -1154,7 +1154,7 @@ variable {
 
 variable {
   name = p13_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1178,7 +1178,7 @@ variable {
 
 variable {
   name = p9_r1_text
-  value = none
+  value = mezepheles_no_ability
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 00:22
+  value = 02:12
   reset_on_launch = false
 }
 
@@ -1256,7 +1256,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 1
+  value = 8
   reset_on_launch = false
 }
 
@@ -1280,7 +1280,7 @@ variable {
 
 variable {
   name = p11_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1412,7 +1412,7 @@ variable {
 
 variable {
   name = p9_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1430,7 +1430,7 @@ variable {
 
 variable {
   name = p10_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -1514,7 +1514,7 @@ variable {
 
 variable {
   name = p4_r1_text
-  value = none
+  value = noble
   reset_on_launch = false
 }
 
@@ -1580,7 +1580,7 @@ variable {
 
 variable {
   name = p7_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
