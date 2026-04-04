@@ -69,3 +69,7 @@ config/yawp-region-defaults.toml
 config/voicechat-client
 config/simplemacro
 /saves/seed1
+/saves/world/playerdata
+config/fancymenu/user_variables.db
+/saves/world/poi
+/saves/world/stats

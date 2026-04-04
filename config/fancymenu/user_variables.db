@@ -596,7 +596,7 @@ variable {
 
 variable {
   name = player_count
-  value = 6
+  value = 5
   reset_on_launch = false
 }
 
@@ -806,7 +806,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -926,7 +926,7 @@ variable {
 
 variable {
   name = storyteller
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 13:24
+  value = 13:40
   reset_on_launch = false
 }
 
