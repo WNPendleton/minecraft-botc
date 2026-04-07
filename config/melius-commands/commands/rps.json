@@ -37,8 +37,10 @@
 				}
 			],
 			"require": {
-				"type": "operator",
-				"operator": 2
+				"type": "entity",
+				"value": {
+					"team": "99_storyteller"
+				}
 			}
 		}
 	]

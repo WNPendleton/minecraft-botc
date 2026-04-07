@@ -92,7 +92,7 @@ variable {
 
 variable {
   name = announcement
-  value = none
+  value = banshee
   reset_on_launch = false
 }
 
@@ -890,7 +890,7 @@ variable {
 
 variable {
   name = phase
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 

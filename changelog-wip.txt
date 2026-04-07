@@ -1,7 +1,19 @@
 BotC v1.6.0 - April XX, 2026
 
 Changes and features:
-- actions menu; boom, fear, al hadikhia, roshambo, leviathan, restore dead tokens
+- Added a "Special Actions" menu to the Grimoire. This menu contains several character-specific buttons:
+  - Toggle Organ Grinder ability (#9)
+  - Toggle Voudon ability (#38)
+  - Toggle Banshee ability (#12)
+  - Announce Banshee
+  - Start cult vote
+  - Restore ghost votes (#40)
+  - Announce Al-Hadikhia
+  - Announce Leviathan (#39)
+  - Announce Fearmonger
+  - Play Roshambo
+  - Start Boomdandy timer
+- Chat commands that previously required operator status to run now require that you are marked as a Storyteller. This does not completely eliminate the need to be an operator to Storytell, but it is progress towards that.
 
 Fixed bugs:
 - #70: Block sounds are not muted on nights 1 and 3.
