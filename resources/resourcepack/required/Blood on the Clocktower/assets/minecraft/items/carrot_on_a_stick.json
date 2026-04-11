@@ -62,12 +62,23 @@
       {
         "when": {
           "strings": [
-            "vote_arm"
+            "long_arm"
           ]
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/vote_arm"
+          "model": "minecraft:item/long_arm"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "short_arm"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/short_arm"
         }
       },
       {

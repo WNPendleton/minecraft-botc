@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-player_grim
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1775261262471
+  last_edited_time = 1775780587222
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:dd7e95a8-c1ef-4f51-9cd8-958b66595f37-1775261250903] = [groups:][instances:]
+  [loading_requirement_container_meta:d7ee8a07-5bb1-43ad-be4e-42dcdb151675-1775780578791] = [groups:][instances:]
 }
 
 customization {
@@ -9278,7 +9278,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = f82443ce-0045-43b1-b056-731842115c1c-1765776032662
   [loading_requirement_container_meta:f82443ce-0045-43b1-b056-731842115c1c-1765776032662] = [groups:][instances:ac726435-7f62-4d85-b71c-244b06de08ad-1765776032662;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:ac726435-7f62-4d85-b71c-244b06de08ad-1765776032662] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"6"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:ac726435-7f62-4d85-b71c-244b06de08ad-1765776032662] = ["mode":"bigger-than-or-equals","number":"{"placeholder":"scoreboard_score","values":{"player":"player_count","objective":"game_data"}}","compare_with":"15"]$
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false

@@ -15,10 +15,10 @@ custom_gui {
 }
 
 custom_gui {
-  identifier = ct-credits
+  identifier = ct-bag
   title = 
   allow_esc = true
-  transparent_world_background = false
+  transparent_world_background = true
   transparent_world_background_overlay = true
   pause_game = true
   popup_mode = false
@@ -26,10 +26,54 @@ custom_gui {
 }
 
 custom_gui {
-  identifier = ct-bag
+  identifier = ct-confirm_reset
   title = 
   allow_esc = true
   transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = ct-timer
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = ct-night-order
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = ct-travelers
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = ct-credits
+  title = 
+  allow_esc = true
+  transparent_world_background = false
   transparent_world_background_overlay = true
   pause_game = true
   popup_mode = false
@@ -59,29 +103,18 @@ custom_gui {
 }
 
 custom_gui {
-  identifier = ct-confirm_reset
-  title = 
-  allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = true
-  pause_game = true
-  popup_mode = false
-  popup_mode_background_overlay = true
-}
-
-custom_gui {
-  identifier = ct-script
+  identifier = ct-quick_actions
   title = 
   allow_esc = true
   transparent_world_background = true
   transparent_world_background_overlay = true
   pause_game = false
   popup_mode = false
-  popup_mode_background_overlay = true
+  popup_mode_background_overlay = false
 }
 
 custom_gui {
-  identifier = ct-timer
+  identifier = ct-script
   title = 
   allow_esc = true
   transparent_world_background = true
@@ -104,28 +137,6 @@ custom_gui {
 
 custom_gui {
   identifier = ct-settings
-  title = 
-  allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = true
-  pause_game = true
-  popup_mode = false
-  popup_mode_background_overlay = true
-}
-
-custom_gui {
-  identifier = ct-night-order
-  title = 
-  allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = true
-  pause_game = false
-  popup_mode = false
-  popup_mode_background_overlay = true
-}
-
-custom_gui {
-  identifier = ct-travelers
   title = 
   allow_esc = true
   transparent_world_background = true

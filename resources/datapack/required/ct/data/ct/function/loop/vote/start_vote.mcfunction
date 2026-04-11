@@ -13,6 +13,7 @@ execute if entity @a[scores={id=12}] as @e[type=minecraft:item_display,tag=vote_
 execute if entity @a[scores={id=13}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=13}] run data modify entity @s view_range set value 1
 execute if entity @a[scores={id=14}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=14}] run data modify entity @s view_range set value 1
 execute if entity @a[scores={id=15}] as @e[type=minecraft:item_display,tag=vote_marker,scores={id=15}] run data modify entity @s view_range set value 1
+execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s view_range set value 1
 
 tag @a add voting_no
 scoreboard players operation current vote = @a[tag=nominee] id
@@ -33,6 +34,6 @@ function ct:util/color_prefixes
 
 tag @a remove vote_start
 tag @a[tag=last_nom] remove last_nom
-item replace entity @e[type=minecraft:armor_stand,limit=1,tag=clock_arm] armor.head with minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["vote_arm"]}]
+
 clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]}]
 function ct:loop/vote/cd/3

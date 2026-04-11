@@ -1,6 +1,8 @@
 BotC v1.6.0 - April XX, 2026
 
 Changes and features:
+- Added icons to "Teleport to seats" and "Teleport to homes" buttons.
+- Added an explanatory tooltip to the "Teleport to homes" button.
 - Added a "Special Actions" menu to the Grimoire. This menu contains several character-specific buttons:
   - Toggle Organ Grinder ability (#9)
   - Toggle Voudon ability (#38)
@@ -13,9 +15,15 @@ Changes and features:
   - Announce Fearmonger
   - Play Roshambo
   - Start Boomdandy timer
+- Added timer settings:
+  - TP players to seats
+  - Pause during nominations
 - Chat commands that previously required operator status to run now require that you are marked as a Storyteller. This does not completely eliminate the need to be an operator to Storytell, but it is progress towards that.
+- Many texts are now translation strings.
 
 Fixed bugs:
 - #70: Block sounds are not muted on nights 1 and 3.
 - #87: Compasses not handed out on night one.
-- Fixed spectator 👁️ in voice chats icon using the wrong font.
+- Spectator 👁️ in voice chats icon uses the wrong font.
+- The button to change seat 15's character is clickable when there are not 15 players.
+- Custom banner patterns refer to a nonexistent translation string.

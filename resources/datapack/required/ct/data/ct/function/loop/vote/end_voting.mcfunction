@@ -15,7 +15,6 @@ clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["star
 clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_yes"]}]
 clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_no"]}]
 clear @a minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_ghost"]}]
-item replace entity @e[type=minecraft:armor_stand,limit=1,tag=clock_arm] armor.head with minecraft:air
 
 execute if score already_incremented vote matches 0 if score total vote >= majority math run function ct:loop/vote/set_majority
 execute if score already_incremented vote matches 1 if score total vote > current_majority vote run function ct:loop/vote/increase_majority
@@ -40,6 +39,7 @@ execute if entity @a[scores={id=12},tag=last_nom] if data block 132 72 68 front_
 execute if entity @a[scores={id=13},tag=last_nom] if data block 131 72 69 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 131 72 69 front_text.messages[1].hover_event.name
 execute if entity @a[scores={id=14},tag=last_nom] if data block 128 72 70 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 128 72 70 front_text.messages[1].hover_event.name
 execute if entity @a[scores={id=15},tag=last_nom] if data block 125 72 70 front_text.messages[1].text run data modify storage ct:data last_nom.name set from block 125 72 70 front_text.messages[1].hover_event.name
+execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s view_range set value 0
 
 execute as @a run function ct:loop/vote/save_nom with storage ct:data last_nom
 tag @a[tag=not_legion] remove not_legion
